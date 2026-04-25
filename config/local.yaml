@@ -1,0 +1,26 @@
+db:
+  username: user
+  password: pw
+  host: 127.0.0.1
+  port: 5432
+  database: databse
+
+files:
+  H1:
+    volume: files/binance_futures_quote_asset_volume_price_1h_rest_20260116_1234.csv
+    close: files/binance_futures_close_price_1h_rest_20260116_1234.csv
+
+metrics:
+  base_url: "http://localhost:8001"
+  ttl: 30
+  enabled: False
+
+data:
+  symbol: "DOCU"
+  timeframe: "H1"
+  start: "2022-02-01"
+  end: "2023-02-01"
+
+analysis:
+
+logging:
